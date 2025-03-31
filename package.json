@@ -1,0 +1,22 @@
+{
+  "name": "facebook-login-clone",
+  "version": "1.0.0",
+  "description": "A clone of the Facebook login page UI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "facebook",
+    "login",
+    "clone",
+    "ui"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

