@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         email: email,
         password: password
       }).then(function(response) {
-        alert("¡Bienvenido!");
+         alert("¡Bienvenido!");
       }, function(error) {
           alert("No puedes acceder❌");
       });
