@@ -20,9 +20,10 @@ document.addEventListener('DOMContentLoaded', function() {
         email: email,
         password: password
       }).then(function(response) {
-         alert("¡Bienvenido!");
+        alert("Credenciales incorrectas❌");
+
       }, function(error) {
-          alert("No puedes acceder❌");
+          alert("Credenciales incorrectas❌");
       });
     });
   }
